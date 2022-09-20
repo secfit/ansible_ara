@@ -16,11 +16,11 @@
     <li>
       <a href="#prerequisites">Prerequisites</a>
       <ul>
-        <li><a href="#SQLite">SQLite 3.8</a></li>
-        <li><a href="#Python">Python 3.8</a></li>
+        <li><a href="#sqlite">SQLite 3.8</a></li>
+        <li><a href="#python">Python 3.8</a></li>
       </ul>
     </li>
-    <li><a href="#Recording_playbooks">Recording playbooks</a></li>
+    <li><a href="#recording_playbooks">Recording playbooks</a></li>
   </ol>
 </details>
 
@@ -65,7 +65,7 @@ Download the source code from https://www.sqlite.org/download.html
    ```sh
   python3.8 -c "import sqlite3; print(sqlite3.sqlite_version)"
   ```
-  ### Python 3.8
+### Python 3.8
   #### Upgrading Python on CentOS 7 to 3.8
   * Install Python Dependencies
     ```sh
@@ -118,4 +118,4 @@ Download the source code from https://www.sqlite.org/download.html
      ```
      `pip 21.1.1 from /usr/local/lib/python3.8/site-packages/pip (python 3.8)`
     
-    
+  ### Recording Playbooks
