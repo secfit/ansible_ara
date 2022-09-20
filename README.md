@@ -118,4 +118,44 @@ Download the source code from https://www.sqlite.org/download.html
      ```
      `pip 21.1.1 from /usr/local/lib/python3.8/site-packages/pip (python 3.8)`
     
-  ### Recording Playbooks
+  ## Recording Playbooks
+  ### Environement definition
+  * Create environement
+       ```sh
+     python3.8 -m venv /opt/virtualenv38/
+     source /opt/virtualenv38/bin/activate
+     ```
+   * Upgrade pip
+      ```sh
+     pip install --upgrade pip
+     ```
+   * Install Ansible and ARA (with API server dependencies) for the current user
+       ```sh
+     pip3.8 install ansible ara[server]
+     ```
+   * Configure Ansible to use the ARA callback plugin
+       ```sh
+     export ANSIBLE_CALLBACK_PLUGINS="$(python3.8 -m ara.setup.callback_plugins)"
+     ```
+   * Run an Ansible playbook
+       ```sh
+     ansible-playbook playbook_test.yaml
+     ```
+   * Use the CLI to see recorded playbooks
+       ```sh
+     ara playbook list
+     ara result list
+     ```
+   * Start the built-in development server to browse recorded results
+       ```sh
+     ara-manage runserver
+     ```
+     
+     `[ara] Using settings file: /home/achoughi/.ara/server/settings.yaml`<br/>
+     `[ara] Using settings file: /home/achoughi/.ara/server/settings.yaml`<br/>
+      `Performing system checks...`<br/>
+      `System check identified no issues (0 silenced).`<br/>
+      `September 20, 2022 - 13:49:06`<br/>
+      `Django version 2.2.28, using settings 'ara.server.settings'`<br/>
+      `Starting development server at http://127.0.0.1:8000/`<br/>
+      `Quit the server with CONTROL-C`<br/>
