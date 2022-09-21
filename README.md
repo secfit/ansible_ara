@@ -16,8 +16,8 @@
     <li>
       <a href="#prerequisites">Prerequisites</a>
       <ul>
-        <li><a href="#sqlite">SQLite 3.8</a></li>
-        <li><a href="#python">Python 3.8</a></li>
+        <li><a href="#sqlite38">SQLite 3.8</a></li>
+        <li><a href="#python38">Python 3.8</a></li>
       </ul>
     </li>
     <li><a href="#recording_playbooks">Recording playbooks</a></li>
