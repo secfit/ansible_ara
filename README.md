@@ -139,7 +139,7 @@ Download the source code from https://www.sqlite.org/download.html
      ```
    * Run an Ansible playbook
        ```sh
-     ansible-playbook playbook_test.yaml
+     ansible-playbook hstnm_test.yml
      ```
    * Use the CLI to see recorded playbooks
        ```sh
