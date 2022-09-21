@@ -146,11 +146,13 @@ Download the source code from https://www.sqlite.org/download.html
      ara playbook list
      ara result list
      ```
+     <img src="images/ara_playbook_list.JPG">
+     <img src="images/ara_result_list.JPG">
    * Start the built-in development server to browse recorded results
        ```sh
      ara-manage runserver
      ```
-     
+   
      `[ara] Using settings file: /home/achoughi/.ara/server/settings.yaml`<br/>
      `[ara] Using settings file: /home/achoughi/.ara/server/settings.yaml`<br/>
       `Performing system checks...`<br/>
@@ -159,3 +161,4 @@ Download the source code from https://www.sqlite.org/download.html
       `Django version 2.2.28, using settings 'ara.server.settings'`<br/>
       `Starting development server at http://127.0.0.1:8000/`<br/>
       `Quit the server with CONTROL-C`<br/>
+      <img src="images/ara_capture.JPG">
