@@ -16,11 +16,11 @@
     <li>
       <a href="#prerequisites">Prerequisites</a>
       <ul>
-        <li><a href="#sqlite38">SQLite 3.8</a></li>
-        <li><a href="#python38">Python 3.8</a></li>
+        <li><a href="#sqlite-38">SQLite 3.8</a></li>
+        <li><a href="#python-38">Python 3.8</a></li>
       </ul>
     </li>
-    <li><a href="#recording_playbooks">Recording playbooks</a></li>
+    <li><a href="#recording-playbooks">Recording playbooks</a></li>
   </ol>
 </details>
 
